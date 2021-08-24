@@ -1,0 +1,124 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans";
+  font-family: "Jost";
+  font-family: "Catamaran";
+  font-family: "Josefin Sans";
+  font-family: "Poppins";
+  word-wrap: break-word;
+}
+*::-webkit-scrollbar {
+  width: 7px;
+}
+*::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+*::-webkit-scrollbar-thumb {
+  background: #888;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+body {
+  margin: 0;
+  font-family: "Open Sans";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d9d9d9 !important;
+}
+
+.mark-input-001::-webkit-outer-spin-button,
+.mark-input-001::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.AppContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.round-btn {
+  background: #ffffff;
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  padding: 8px 10px;
+  text-align: center;
+  cursor: pointer;
+}
+.round-btn:hover {
+  box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+}
+.round-input {
+  background: #ffffff;
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+  padding: 8px 20px;
+  text-align: left;
+}
+.round-input input,
+.round-input select,
+.round-input textarea {
+  border: none !important;
+  outline: none;
+  background-color: transparent;
+  width: 100%;
+}
+.round-input:focus-within {
+  box-shadow: inset 0px 2px 2px rgba(0, 0, 0, 0.4) !important;
+}
+
+.react-tel-input {
+  box-shadow: none;
+  border: none;
+  outline: none;
+}
+.react-tel-input input {
+  border: none !important;
+  outline: none !important;
+  padding: 0;
+  height: 24px !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  color: black !important;
+}
+.react-tel-input .flag-dropdown {
+  border: none !important;
+  background-color: transparent !important;
+}
+.react-tel-input .selected-flag {
+  border: none !important;
+  background-color: transparent !important;
+}
+.announcementBox {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.custom-dropdown button{
+background-color: transparent !important;
+border: none !important;
+box-shadow: none !important;
+/* color: black !important; */
+padding: 0px;
+}
+.custom-dropdown button::after{
+  content: none;
+}

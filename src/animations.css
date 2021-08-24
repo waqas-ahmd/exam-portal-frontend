@@ -1,0 +1,14 @@
+.rotation svg{
+    animation-name: rotationkeys;
+    animation-timing-function: linear;
+    animation-duration: 200ms;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes rotationkeys{
+    0% {transform: rotateZ(0deg);}
+    50% {transform: rotateZ(180deg)}
+    100% {transform: rotateZ(360deg);}
+}

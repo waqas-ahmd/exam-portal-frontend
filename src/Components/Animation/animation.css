@@ -1,0 +1,72 @@
+.hourNeedle{
+    animation-name: needleAnimation;
+    animation-duration: 6s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.minuteNeedle{
+    animation-name: needleAnimation;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+
+@keyframes needleAnimation{
+    from {
+        transform: rotateZ(0deg);
+    }
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.textBars rect{
+    opacity: 0;
+    animation-name: textAnimation;
+    animation-timing-function: normal;
+    animation-iteration-count: infinite;
+    animation-direction: cubic-bezier(0,.70,1,.30);
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+.textBars rect:nth-child(1){
+    animation-delay: 0.3s;
+    animation-duration: 5s;
+}.textBars rect:nth-child(2){
+    animation-delay: 0.6s;
+    animation-duration: 5s;
+}.textBars rect:nth-child(3){
+    animation-delay: 0.9s;
+    animation-duration: 5s;
+}.textBars rect:nth-child(4){
+    animation-delay: 1.2s;
+    animation-duration: 5s;
+}.textBars rect:nth-child(5){
+    animation-delay: 1.5s;
+    animation-duration: 5s;
+}.textBars rect:nth-child(6){
+    animation-delay: 1.8s;
+    animation-duration: 5s;
+}
+@keyframes textAnimation {
+    0% {
+        opacity:0
+    }
+    50% {
+        opacity: 100;
+    }
+    100% {
+        opacity: 0;
+    }
+}

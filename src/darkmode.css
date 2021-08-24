@@ -1,0 +1,37 @@
+.darkmode {
+  background-color: #404040 !important;
+}
+.darkmode .p-text {
+  color: #dedede;
+}
+.darkmode .modal-content {
+  background: #444 !important;
+}
+.darkmode .modal-error {
+  color: #eee !important;
+}
+.darkmode .navbar,
+.darkmode .dashboard-card {
+  background: #222 !important;
+}
+.darkmode .nav-link {
+  color: #ccc !important;
+}
+.darkmode .nav-link:hover {
+  color: #fff !important;
+}
+.darkmode .round-btn,
+.darkmode .round-input,
+.darkmode .round-input option {
+  background-color: #282828 !important;
+  color: #bbb;
+}
+.darkmode .round-input input,
+.darkmode .round-input select,
+.darkmode .react-tel-input input,
+.darkmode .round-input textarea {
+  color: #bbb !important;
+}
+.darkmode .announcementBox {
+  background-color: #282828;
+}

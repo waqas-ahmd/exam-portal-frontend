@@ -1,0 +1,29 @@
+@media screen and (max-width: 500px) {
+  .names-inputs {
+    flex-direction: column !important;
+    width: 90% !important;
+    margin: auto;
+  }
+
+  .register-page .round-input {
+    width: 90% !important;
+    margin: auto;
+  }
+  .profile-data-card {
+    width: 90% !important;
+  }
+  .names-inputs .round-input {
+    width: 100% !important;
+  }
+  .dashboard-selectors-container-01 {
+    flex-direction: column !important;
+  }
+  .dashboard-selector-01 {
+    justify-content: space-between !important;
+    width: 100%;
+    margin-bottom: 5px !important;
+  }
+  .create-exam-details-01{
+    flex-direction: column !important;
+  }
+}

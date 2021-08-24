@@ -1,0 +1,63 @@
+.frsc {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fcsc {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.fccs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.fcce {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+.fcec {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: column;
+}
+.frsbc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.frcc {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.fccc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.flex1 {
+  flex: 1;
+}
+.t-ctr {
+  text-align: center;
+}
+.t-bold {
+  font-weight: bold;
+}
+.w-100 {
+  width: 100%;
+}
+.c-ptr {
+  cursor: pointer;
+}
